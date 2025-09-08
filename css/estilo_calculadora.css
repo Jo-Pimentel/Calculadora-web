@@ -14,7 +14,63 @@
 
 #calculadora {
     background-color: rgb(128,128,128);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
     text-align: center;
     width: 270px;
-    padding: 5px;
+    padding: 15px;
+}
+
+#visor_da_calculadora {
+    background-color: rgb(220,220,220);
+    border: 10px outset rgb(0, 0, 0);
+    height: 90px;
+}
+
+#conteudo_visor_da_calculadora {
+    text-align: right;
+    font-size: 75px;
+    color: rgb(128,128,128);
+}
+
+#botoes_disponiveis {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    font-family: 'Arial';
+}
+
+.grupo_de_botoes {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.botao {
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
+    font-size: 30px;
+    font-weight: bold;
+    width: 56.8px;
+    text-align: center;
+}
+
+.numero_disponivel {
+    background-color: rgb(256, 256, 256);
+}
+
+.operacao_disponivel {
+    background-color: rgb(105,105,105);
+    color: rgb(256, 256, 256);
+}
+
+.botao_complementar {
+    background-color: rgb(169,169,169);
+}
+
+#botao_resultado {
+    background-color: rgb(256,0,0);
+    color: rgb(256, 256, 256);
 }
