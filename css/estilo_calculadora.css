@@ -8,7 +8,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #000;
     color: #fff;
 }
 
@@ -20,6 +19,7 @@
     text-align: center;
     width: 270px;
     padding: 15px;
+    margin-top: 50px;
 }
 
 #visor_da_calculadora {
