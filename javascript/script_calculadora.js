@@ -12,7 +12,11 @@ let primeiro_numero, segundo_numero, acao_escolhida;
 
 numeros_disponiveis.map((numero_disponivel) => {
     numero_disponivel.addEventListener("click", () => {
-        conteudo_visor_da_calculadora.textContent += numero_disponivel.textContent;
+        if(conteudo_visor_da_calculadora.textContent.length < 6) {
+            conteudo_visor_da_calculadora.textContent += numero_disponivel.textContent;
+        } else {
+            alert("O número não pode ter mais de seis dígitos.")
+        }
     })
 })
 
