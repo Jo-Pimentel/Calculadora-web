@@ -26,9 +26,6 @@
     background-color: rgb(220,220,220);
     border: 10px outset rgb(0, 0, 0);
     height: 90px;
-}
-
-#conteudo_visor_da_calculadora {
     text-align: right;
     font-size: 75px;
     color: rgb(128,128,128);
